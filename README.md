@@ -57,7 +57,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 <h4>Computer tries to guess the number:</h4>
 <img width="732" height="779" alt="image" src="https://github.com/user-attachments/assets/419e7cf1-6deb-4562-bc0e-10e0ddeee883" />
 
-<h3>3. Rock-PaperScissor</h3>
+<h3>3. Rock-Paper-Scissor</h3>
 <p>
 A command-line version of the classic Rock-Paper-Scissor game where the user competes against the computer. 
 The program randomly selects its choice and compares it with the user's input to determine the winner. 
