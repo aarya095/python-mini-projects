@@ -29,7 +29,7 @@ def computer_guess_our_number(high):
         if low < high:
             computer_guess = random.randint(low, high)
             print(f"\nComputer guess the following number: {computer_guess}")
-            feedback = input("'h' for high and 'l' for low: ").lower()
+            feedback = input("'h' for high, 'l' for low, 'c' for correct: ").lower()
             
             if (feedback != 'h') and (feedback != 'l'):
                 print("Please provide a requested letter.")
@@ -38,6 +38,8 @@ def computer_guess_our_number(high):
                 high = computer_guess - 1
             if feedback == 'l':
                 low = computer_guess + 1
+            if feedback == 'c':
+                exit()
         elif low > high:
             print("You have missed the number and computer has already guessed it!")
             exit()
