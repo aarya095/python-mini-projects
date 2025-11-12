@@ -31,7 +31,7 @@ def computer_guess_our_number(high):
             print(f"\nComputer guess the following number: {computer_guess}")
             feedback = input("'h' for high, 'l' for low, 'c' for correct: ").lower()
             
-            if (feedback != 'h') and (feedback != 'l'):
+            if (feedback != 'h') and (feedback != 'l') and (feedback != 'c'):
                 print("Please provide a requested letter.")
 
             if feedback == 'h':
