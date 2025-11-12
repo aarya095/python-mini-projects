@@ -1,3 +1,8 @@
+"""Mad Libs are stories with words removed and replaced by blank spaces. 
+One player acts as the “reader” and asks the other players, who haven’t seen the story, 
+to fill in the blanks with adjectives, nouns, exclamations, colors, adjectives, and more. 
+These words are inserted into the blanks and then the story is read aloud to hilarious results."""
+
 adjective1 = input("Provide an adjective: ").lower()
 adjective2 = input("Provide another adjective: ").lower()
 verb1 = input("Provide a verb: ").lower()
