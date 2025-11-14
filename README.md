@@ -22,21 +22,24 @@ Each mini project is designed to reinforce basic programming concepts like varia
 
 <h2>🧩 Projects</h2>
 
-<h3>1. Mad Libs</h3>
+<h3>Rock-Paper-Scissor</h3>
 <p>
-A simple word game where the program takes user inputs (nouns, verbs, adjectives, etc.) and inserts them into a story template to create a fun or random narrative.
+A command-line version of the classic Rock-Paper-Scissor game where the user competes against the computer. 
+The program randomly selects its choice and compares it with the user's input to determine the winner. 
+It continues running until the user decides to exit.
 </p>
 
 <b>Concepts used:</b>
 <ul>
-  <li>Input/output handling</li>
-  <li>String concatenation and formatting</li>
+  <li>Random module for generating computer choices</li>
+  <li>Conditional logic for win/loss evaluation</li>
+  <li>Loop control and user input handling</li>
+  <li>Program termination using exit conditions</li>
 </ul>
-
 <p>Example Output</p>
-<img width="569" height="315" alt="image" src="https://github.com/user-attachments/assets/5cd30991-16ac-4978-b440-af9571b5ab57" />
+<img width="560" height="492" alt="image" src="https://github.com/user-attachments/assets/36bc199c-eeb2-41ce-af82-d7e3a50c888c" />
 
-<h3>2. Guess the Number</h3>
+<h3>Guess the Number</h3>
 <p>Includes two variations:</p>
 <ul>
   <li><b>User Guess:</b> The user tries to guess a number randomly chosen by the computer.</li>
@@ -57,22 +60,19 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 <h4>Computer tries to guess the number:</h4>
 <img width="732" height="779" alt="image" src="https://github.com/user-attachments/assets/419e7cf1-6deb-4562-bc0e-10e0ddeee883" />
 
-<h3>3. Rock-Paper-Scissor</h3>
+<h3>Mad Libs</h3>
 <p>
-A command-line version of the classic Rock-Paper-Scissor game where the user competes against the computer. 
-The program randomly selects its choice and compares it with the user's input to determine the winner. 
-It continues running until the user decides to exit.
+A simple word game where the program takes user inputs (nouns, verbs, adjectives, etc.) and inserts them into a story template to create a fun or random narrative.
 </p>
 
 <b>Concepts used:</b>
 <ul>
-  <li>Random module for generating computer choices</li>
-  <li>Conditional logic for win/loss evaluation</li>
-  <li>Loop control and user input handling</li>
-  <li>Program termination using exit conditions</li>
+  <li>Input/output handling</li>
+  <li>String concatenation and formatting</li>
 </ul>
+
 <p>Example Output</p>
-<img width="560" height="492" alt="image" src="https://github.com/user-attachments/assets/36bc199c-eeb2-41ce-af82-d7e3a50c888c" />
+<img width="569" height="315" alt="image" src="https://github.com/user-attachments/assets/5cd30991-16ac-4978-b440-af9571b5ab57" />
 
 <hr>
 
