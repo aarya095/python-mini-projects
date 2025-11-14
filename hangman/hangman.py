@@ -41,8 +41,6 @@ def play_hangman(correct_guessed_letters_list):
 
         if len(already_guessed_letters_set) != 0:
             print(f"Already used letters: {already_guessed_letters_set}")
-            print("The word: ", end="")
-            print(*correct_guessed_letters_list)
 
         if user_guess in correct_guessed_letters_list or \
                 user_guess in already_guessed_letters_set:
@@ -57,16 +55,17 @@ def play_hangman(correct_guessed_letters_list):
                     correct_guessed_letters_list[index_of_letter] = selected_word_letters_list[index_of_letter]
                     selected_word_letters_list[index_of_letter] = '-'
                     already_guessed_letters_set.add(user_guess)
-                    
-            print("The word: ", end="")
-            print(*correct_guessed_letters_list,"\n")
 
         elif user_guess == 'exit':
             exit()
 
         elif user_guess not in selected_word_letters_list:
-            print("Wrong guess! Try again!\n")
+            print("Wrong guess! Try again!")
             already_guessed_letters_set.add(user_guess)
+
+        print("The word: ", end="")
+        print(*correct_guessed_letters_list)
+        print("------------------")
 
     print("Congratulations! You've guess the word correctly!")
 
