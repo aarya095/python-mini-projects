@@ -15,11 +15,9 @@ def select_random_word():
     return x 
 
 def convert_str_to_list_of_words(randomly_selected_word):
-    print(randomly_selected_word)
 
     for letter in randomly_selected_word:
         selected_word_letters_list.append(letter)
-    print(selected_word_letters_list)
     return selected_word_letters_list
 
 def create_list_to_Store_guessed_letters(selected_word_letters_list):
@@ -36,23 +34,24 @@ def count_num_of_letters(list, letter):
     return num_of_letter
 
 def play_hangman(correct_guessed_letters_list):
-    while '-' in correct_guessed_letters_list:
-        user_guess = input("Please guess a letter: ").strip().lower()
-        if len(already_guessed_letters_set) != 0:
-            print(f"\nAlready used letters: {already_guessed_letters_set}")
 
-        if user_guess in correct_guessed_letters_list or user_guess in already_guessed_letters_set:
+    while '-' in correct_guessed_letters_list:
+
+        user_guess = input("Please guess a letter: ").strip().lower()
+
+        if len(already_guessed_letters_set) != 0:
+            print(f"Already used letters: {already_guessed_letters_set}")
+
+        if user_guess in correct_guessed_letters_list or \
+                user_guess in already_guessed_letters_set:
             already_guessed_letters_set.add(user_guess)
-            print(f"You have already guessed '{user_guess}' letter")
+            print(f"You have already guessed '{user_guess}' letter.\n")
         
         elif user_guess in selected_word_letters_list:
-            #num_of_letter = count_num_of_letters(selected_word_letters_list, user_guess)
-            #print(f"Number of times '{user_guess}' is repeating is {num_of_letter}")
+
             for letter in selected_word_letters_list:
-                if letter == user_guess:
-                    print(selected_word_letters_list)
+                if letter == user_guess:                
                     index_of_letter = selected_word_letters_list.index(letter)
-                    print(f"Index of the letter is {index_of_letter}")
                     correct_guessed_letters_list[index_of_letter] = selected_word_letters_list[index_of_letter]
                     selected_word_letters_list[index_of_letter] = '-'
                     print(f"The word: {correct_guessed_letters_list}\n")
