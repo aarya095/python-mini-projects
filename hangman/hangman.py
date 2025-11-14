@@ -23,7 +23,7 @@ def convert_str_to_list_of_words(randomly_selected_word):
 def create_list_to_Store_guessed_letters(selected_word_letters_list):
     for i in range(0,len(selected_word_letters_list)):
         correct_guessed_letters_list.append('-')
-    print(correct_guessed_letters_list)
+    print(*correct_guessed_letters_list)
     return correct_guessed_letters_list
 
 def count_num_of_letters(list, letter):
@@ -41,6 +41,8 @@ def play_hangman(correct_guessed_letters_list):
 
         if len(already_guessed_letters_set) != 0:
             print(f"Already used letters: {already_guessed_letters_set}")
+            print("The word: ", end="")
+            print(*correct_guessed_letters_list)
 
         if user_guess in correct_guessed_letters_list or \
                 user_guess in already_guessed_letters_set:
@@ -54,8 +56,10 @@ def play_hangman(correct_guessed_letters_list):
                     index_of_letter = selected_word_letters_list.index(letter)
                     correct_guessed_letters_list[index_of_letter] = selected_word_letters_list[index_of_letter]
                     selected_word_letters_list[index_of_letter] = '-'
-                    print(f"The word: {correct_guessed_letters_list}\n")
                     already_guessed_letters_set.add(user_guess)
+                    
+            print("The word: ", end="")
+            print(*correct_guessed_letters_list,"\n")
 
         elif user_guess == 'exit':
             exit()
