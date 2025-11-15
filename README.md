@@ -13,7 +13,7 @@ Currently includes:
 
 <hr>
 
-<h1>📘 About</h1>
+<h1>About</h1>
 <p>
 This repository is part of my foundational learning in <b>Python programming</b>, supporting my journey as an <b>IT Engineering student</b> focused on <b>Defensive Security</b> and <b>Full Stack Development</b>.<br>
 Each mini project is designed to reinforce basic programming concepts like variables, conditionals, loops, and input handling.
@@ -21,7 +21,7 @@ Each mini project is designed to reinforce basic programming concepts like varia
 
 <hr>
 
-<h1>🧩 Projects</h1>
+<h1>Projects</h1>
 
 <h2>Hangman</h2>
 <p>
@@ -99,7 +99,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <hr>
 
-<h1>🧠 Learning Goals</h1>
+<h2>Learning Goals</h2>
 <ul>
   <li>Strengthen understanding of Python basics</li>
   <li>Practice problem decomposition and logic flow</li>
@@ -108,14 +108,14 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <hr>
 
-<h2>⚙️ Requirements</h2>
+<h2>Requirements</h2>
 <ul>
   <li>Python 3.x</li>
 </ul>
 
 <hr>
 
-<h2>🧑‍💻 Author</h2>
+<h2>Author</h2>
 <p>
 <b>Aarya</b><br>
 IT Engineering student | Learning Defensive Security and Development
