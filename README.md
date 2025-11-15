@@ -45,7 +45,7 @@ completes the word or exits manually.
 <img width="558" height="540" alt="image" src="https://github.com/user-attachments/assets/0300b49f-1c1f-4d78-b5f3-0f2a18852c23" width=300/>
 <img width="653" height="559" alt="image" src="https://github.com/user-attachments/assets/816905f5-59d2-406d-9376-8b84e9760a25" width=300/>
 
-<h2>Rock-Paper-Scissor</2>
+<h2>Rock-Paper-Scissor</h2>
 <p>
 A command-line version of the classic Rock-Paper-Scissor game where the user competes against the computer. 
 The program randomly selects its choice and compares it with the user's input to determine the winner. 
