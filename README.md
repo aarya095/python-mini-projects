@@ -1,7 +1,7 @@
 # python-mini-projects
 
 <p>
-A collection of small beginner-friendly Python projects built to strengthen programming logic and problem-solving skills.  
+A collection of small Python projects built to strengthen programming logic and problem-solving skills.  
 Currently includes:
 <ul>
   <li>Hangman</li>
