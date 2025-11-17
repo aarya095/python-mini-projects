@@ -189,4 +189,4 @@ IT Engineering student | Learning Defensive Security and Development
 
 <hr>
 
-<p>Projects inspired by Kylie Ying’s tutorial on YouTube.</p>
+<p>Projects inspired by Kylie Ying and Code with Tomi’s tutorial on YouTube.</p>
