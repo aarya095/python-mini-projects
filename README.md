@@ -27,6 +27,26 @@ Each mini project is designed to reinforce basic programming concepts like varia
 
 <h1>Projects</h1>
 
+<h3>Password Generator</h3>
+<p>
+A customizable command-line password generator that creates secure passwords based on user-selected criteria. 
+The program allows the user to choose the length of the password and specify whether to include numbers, 
+lowercase letters, uppercase letters, and special symbols. It validates all inputs, constructs an allowed 
+character set, and generates a random password of the desired length.
+</p>
+
+<b>Concepts used:</b>
+<ul>
+  <li>User input validation for security and correctness</li>
+  <li>String module for character sets (digits, letters, punctuation)</li>
+  <li>Random module for generating unpredictable passwords</li>
+  <li>Conditional logic for building a customizable character pool</li>
+  <li>Looping and string manipulation for assembling the final password</li>
+</ul>
+
+<p>Example Output</p>
+<img width="644" height="488" alt="image" src="https://github.com/user-attachments/assets/2a2e6a7e-8405-4b56-ab55-fe6fc419547c" />
+
 <h2>Hangman</h2>
 <p>
 A console-based Hangman game where the computer selects a random word from a predefined list, 
@@ -87,6 +107,21 @@ It continues running until the user decides to exit.
 <h4>Computer tries to guess the number:</h4>
 <img width="732" height="779" alt="image" src="https://github.com/user-attachments/assets/419e7cf1-6deb-4562-bc0e-10e0ddeee883" />
 
+<h2>Basic Calculator</h2>
+<p> A simple, command-line calculator that performs basic arithmetic operations (addition, subtraction, multiplication, and division) on two user-provided numbers.
+  It includes basic input validation to handle non-numeric input and invalid operation choices. </p>
+
+<b>Concepts used:</b>
+<ul>     
+  <li>Functions for modularizing arithmetic operations</li>     
+  <li>Loop control (<code>while True</code>) for continuous operation</li>     
+  <li>Conditional branching (<code>if/elif/else</code>) to execute the chosen operation</li>     
+  <li>Error handling (<code>try...except ValueError</code>) for invalid number input</li>     
+  <li>Input handling (<code>input()</code>) for numbers and operation choice</li>     
+</ul>
+<p>Example Output</p>
+<img width="704" height="426" alt="image" src="https://github.com/user-attachments/assets/102877ff-2129-4cb4-b534-25260512e834" />
+
 <h2>Mad Libs</h2>
 <p>
 A simple word game where the program takes user inputs (nouns, verbs, adjectives, etc.) and inserts them into a story template to create a fun or random narrative.
@@ -109,6 +144,33 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
   <li>Practice problem decomposition and logic flow</li>
   <li>Build a foundation for scripting and automation in Python</li>
 </ul>
+
+<h2>Email Slicer</h2>
+<p> This is a simple console-based program that parses an email address provided by the user. It uses string manipulation, specifically the <code>split()</code> method, to separate the email into its three core components: the username, the email provider, and the domain extension. The program then neatly displays these individual components to the user. </p>
+
+<b>Concepts used:</b>
+<ul>     
+  <li>String manipulation using the <code>split()</code> method to break the string at specified delimiters (<code>@</code> and <code>.</code>)</li>     
+  <li>Tuple unpacking <code>(a, b) = value</code> for concise assignment of the split components</li>     
+  <li>Input handling (<code>input()</code>) for taking the email address from the user</li>     
+  <li>String formatting (f-strings) for displaying the results</li> 
+</ul>
+
+<p>Example Output</p>
+<img width="700" height="295" alt="image" src="https://github.com/user-attachments/assets/115b2563-ffb7-4122-adee-4af2a029ac0b" />
+
+<h2>Word Replacer</h2>
+
+<p> This program demonstrates the basic concept of string manipulation by allowing the user to dynamically replace a specific word within a predefined message. It first displays the original message. Then, it prompts the user to input the word they wish to target and the new word to substitute it with. Finally, it uses the built-in Python <code>.replace()</code> method to perform the substitution and prints the modified string to the console. </p>
+
+<ul>     
+  <li>String declaration and basic output (<code>print()</code>)</li>     
+  <li>Input handling (<code>input()</code>) to accept words from the user</li>     
+  <li>String formatting (f-strings) for interactive prompting</li>     
+  <li>The core String Method <code>.replace(old, new)</code> for substitution</li> 
+</ul>
+<p>Example Output</p>
+<img width="823" height="291" alt="image" src="https://github.com/user-attachments/assets/6f9f8620-475a-477e-bcaa-c08c6a1b6deb" />
 
 <hr>
 
