@@ -20,7 +20,7 @@ def convert_str_to_list_of_words(randomly_selected_word):
         selected_word_letters_list.append(letter)
     return selected_word_letters_list
 
-def create_list_to_Store_guessed_letters(selected_word_letters_list):
+def create_list_to_store_guessed_letters(selected_word_letters_list):
     for i in range(0,len(selected_word_letters_list)):
         correct_guessed_letters_list.append('-')
     print(*correct_guessed_letters_list)
@@ -72,7 +72,7 @@ def play_hangman(correct_guessed_letters_list):
 def run():
     randomly_selected_word = select_random_word()
     selected_word_letters_list = convert_str_to_list_of_words(randomly_selected_word)
-    correct_guessed_letters_list = create_list_to_Store_guessed_letters(selected_word_letters_list)
+    correct_guessed_letters_list = create_list_to_store_guessed_letters(selected_word_letters_list)
     play_hangman(correct_guessed_letters_list)
 
 run()
