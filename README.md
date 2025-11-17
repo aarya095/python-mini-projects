@@ -4,8 +4,8 @@
 A collection of small Python projects built to strengthen programming logic and problem-solving skills.  
 Currently includes:
 <ul>
-  <li>Hangman</li>
   <li>Password Generator</li>
+  <li>Hangman</li>
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
   <li>Basic Calculator</li>
