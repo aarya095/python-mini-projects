@@ -5,9 +5,13 @@ A collection of small Python projects built to strengthen programming logic and 
 Currently includes:
 <ul>
   <li>Hangman</li>
+  <li>Password Generator</li>
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
+  <li>Basic Calculator</li>
   <li>Mad Libs</li>
+  <li>Email Slicer</li>
+  <li>Word Replacer</li>
 </ul>
 </p>
 
