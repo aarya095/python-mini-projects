@@ -160,7 +160,7 @@ A basic terminal-based quiz that iterates through a predefined set of questions,
 <p>Example Output</p>
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/bb0d57b4-ea7c-4e4b-9fa8-8b9c361cd312" />
 
-<h2>Date and Time Display/h2>
+<h2>Date and Time Display</h2>
 <p> A basic program that retrieves the system’s current date and time using Python’s <code>time</code> module and prints it in a human-readable format. It extracts day, month, and year values, as well as hour, minute, and second values, and outputs them separately. </p>
 
 <b>Concepts used:</b>
