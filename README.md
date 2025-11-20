@@ -140,7 +140,7 @@ A program that simulates rolling two six-sided dice. Each roll randomly selects 
 </ul>
 
 <p>Example Output</p>
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/d6f62027-47b2-4264-9e00-b84fd944d59f" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c0a655ce-6505-4558-a055-8bf074f365b8" />
 
 <h2>Quiz</h2>
 <p>
