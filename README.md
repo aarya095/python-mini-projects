@@ -9,7 +9,7 @@ Currently includes:
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
   <li>Basic Calculator</li>
-  <li>Dice Stimulator</li>
+  <li>Dice Simulator</li>
   <li>Quiz</li>
   <li>Date and Time Display</li>
   <li>CLI Stopwatch</li>
@@ -126,7 +126,7 @@ It continues running until the user decides to exit.
 <p>Example Output</p>
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a7df13ef-23b6-4895-baaa-562f70bc30c2" />
 
-<h2>Dice Stimulator</h2>
+<h2>Dice Simulator</h2>
 <p>
 A program that simulates rolling two six-sided dice. Each roll randomly selects values from predefined ASCII art representations and displays the visual output of both dice to the user.
 </p>
