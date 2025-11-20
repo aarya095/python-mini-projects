@@ -66,8 +66,8 @@ completes the word or exits manually.
 </ul>
 
 <p>Example Output</p>
-<img width="680" height="635" alt="image" src="https://github.com/user-attachments/assets/1ede3592-f181-4ace-a789-610bd9532978" />
-<img width="869" height="633" alt="image" src="https://github.com/user-attachments/assets/f0531053-fcee-486d-bb9e-dd5df2822cf5" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1ede3592-f181-4ace-a789-610bd9532978" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/f0531053-fcee-486d-bb9e-dd5df2822cf5" />
 
 <h2>Rock-Paper-Scissor</h2>
 <p>
@@ -84,7 +84,7 @@ It continues running until the user decides to exit.
   <li>Program termination using exit conditions</li>
 </ul>
 <p>Example Output</p>
-<img width="729" height="415" alt="image" src="https://github.com/user-attachments/assets/e031a516-8b15-4912-b42d-4739604fa1b9" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e031a516-8b15-4912-b42d-4739604fa1b9" />
 
 <h2>Guess the Number</h2>
 <p>Includes two variations:</p>
@@ -103,9 +103,9 @@ It continues running until the user decides to exit.
 
 <p>Example Output</p>
 <h4>User tries to guess the number:</h4>
-<img width="775" height="412" alt="image" src="https://github.com/user-attachments/assets/0292f445-ec32-4e38-8446-514e657f95ea" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/0292f445-ec32-4e38-8446-514e657f95ea" />
 <h4>Computer tries to guess the number:</h4>
-<img width="918" height="841" alt="image" src="https://github.com/user-attachments/assets/b25128f5-169d-4a8d-bef3-c4e86e88593c" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/b25128f5-169d-4a8d-bef3-c4e86e88593c" />
 
 <h2>Basic Calculator</h2>
 <p> A simple, command-line calculator that performs basic arithmetic operations (addition, subtraction, multiplication, and division) on two user-provided numbers.
@@ -120,7 +120,7 @@ It continues running until the user decides to exit.
   <li>Input handling (<code>input()</code>) for numbers and operation choice</li>     
 </ul>
 <p>Example Output</p>
-<img width="947" height="378" alt="image" src="https://github.com/user-attachments/assets/a7df13ef-23b6-4895-baaa-562f70bc30c2" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a7df13ef-23b6-4895-baaa-562f70bc30c2" />
 
 <h2>Mad Libs</h2>
 <p>
@@ -134,7 +134,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 </ul>
 
 <p>Example Output</p>
-<img width="754" height="333" alt="image" src="https://github.com/user-attachments/assets/08f35a8c-1458-409b-946e-09901c8db059" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/08f35a8c-1458-409b-946e-09901c8db059" />
 
 <h2>Email Slicer</h2>
 <p> This is a simple console-based program that parses an email address provided by the user. It uses string manipulation, specifically the <code>split()</code> method, to separate the email into its three core components: the username, the email provider, and the domain extension. The program then neatly displays these individual components to the user. </p>
@@ -148,7 +148,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 </ul>
 
 <p>Example Output</p>
-<img width="914" height="170" alt="image" src="https://github.com/user-attachments/assets/928257c0-3606-4944-9b69-dce9ceedd810" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/928257c0-3606-4944-9b69-dce9ceedd810" />
 
 <h2>Word Replacer</h2>
 
@@ -161,7 +161,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
   <li>The core String Method <code>.replace(old, new)</code> for substitution</li> 
 </ul>
 <p>Example Output</p>
-<img width="1104" height="174" alt="image" src="https://github.com/user-attachments/assets/a6184a4e-313f-4d2c-a8a6-cd39955e349b" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a6184a4e-313f-4d2c-a8a6-cd39955e349b" />
 
 <hr>
 
