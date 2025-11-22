@@ -201,7 +201,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/08f35a8c-1458-409b-946e-09901c8db059" />
 
 <h2>Email Slicer</h2>
-<p> This is a simple console-based program that parses an email address provided by the user. It uses string manipulation, specifically the <code>split()</code> method, to separate the email into its three core components: the username, the email provider, and the domain extension. The program then neatly displays these individual components to the user. </p>
+<p> This is a simple console-based program that parses an email address provided by the user. It uses string manipulation, specifically the <code>split()</code> method, to separate the email into its three core components: the username, the email provider, and the domain extension. </p>
 
 <b>Concepts used:</b>
 <ul>     
@@ -216,7 +216,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <h2>Word Replacer</h2>
 
-<p> This program demonstrates the basic concept of string manipulation by allowing the user to dynamically replace a specific word within a predefined message. It first displays the original message. Then, it prompts the user to input the word they wish to target and the new word to substitute it with. Finally, it uses the built-in Python <code>.replace()</code> method to perform the substitution and prints the modified string to the console. </p>
+<p> This program demonstrates the basic concept of string manipulation by allowing the user to dynamically replace a specific word within a predefined message. It uses the built-in Python <code>.replace()</code> method to perform the substitution and prints the modified string to the console. </p>
 
 <ul>     
   <li>String declaration and basic output (<code>print()</code>)</li>     
