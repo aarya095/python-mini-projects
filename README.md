@@ -8,8 +8,8 @@ Currently includes:
   <li>Hangman</li>
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
+  <li>Simple Projects</li>
   <ul>
-    <li><b>Simple Projects</b></li>
     <li>Basic Calculator</li>
     <li>Dice Simulator</li>
     <li>Quiz</li>
