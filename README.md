@@ -4,18 +4,18 @@
 A collection of small Python projects built to strengthen programming logic and problem-solving skills.  
 Currently includes:
 <ul>
-  <li id="password-generator">Password Generator</li>
-  <li id="hangman">Hangman</li>
-  <li id="rock-paper-scissor">Rock-Paper-Scissor</li>
-  <li id="guess-the-number">Guess the Number</li>
-  <li id="basic-calculator">Basic Calculator</li>
-  <li id="dice-simulator">Dice Simulator</li>
-  <li id="quiz">Quiz</li>
-  <li id="date-time-display">Date and Time Display</li>
-  <li id="cli-stopwatch">CLI Stopwatch</li>
-  <li id="mad-libs">Mad Libs</li>
-  <li id="email-slicer">Email Slicer</li>
-  <li id="word-replacer">Word Replacer</li>
+  <li><a href="#password-generator">Password Generator</a></li>
+  <li><a href="#hangman">Hangman</a></li>
+  <li><a href="#rock-paper-scissor">Rock-Paper-Scissor</a></li>
+  <li><a href="#guess-the-number">Guess the Number</a></li>
+  <li><a href="#basic-calculator">Basic Calculator</a></li>
+  <li><a href="#dice-simulator">Dice Simulator</a></li>
+  <li><a href="#quiz">Quiz</a></li>
+  <li><a href="#date-and-time-display">Date and Time Display</a></li>
+  <li><a href="#cli-stopwatch">CLI Stopwatch</a></li>
+  <li><a href="#mad-libs">Mad Libs</a></li>
+  <li><a href="#email-slicer">Email Slicer</a></li>
+  <li><a href="#word-replacer">Word Replacer</a></li>
 </ul>
 </p>
 
@@ -29,7 +29,7 @@ Each mini project is designed to reinforce programming concepts like variables, 
 
 <hr>
 
-<h1><a href="#password-generator" >Projects</a></h1>
+<h1><a id="password-generator" >Projects</a></h1>
 
 <h3>Password Generator</h3>
 <p>
