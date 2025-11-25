@@ -54,6 +54,8 @@ def take_and_validate_length_of_characters():
 
     return number_of_characters
 
+
+
 def take_and_validate_input_numbers():
     """Takes in length_of_character and validates it, loops until the user provides the accepted input"""
     
