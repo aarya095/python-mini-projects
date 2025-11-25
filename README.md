@@ -4,18 +4,18 @@
 A collection of small Python projects built to strengthen programming logic and problem-solving skills.  
 Currently includes:
 <ul>
-  <li>Password Generator</li>
-  <li>Hangman</li>
-  <li>Rock-Paper-Scissor</li>
-  <li>Guess the Number</li>
-  <li>Basic Calculator</li>
-  <li>Dice Simulator</li>
-  <li>Quiz</li>
-  <li>Date and Time Display</li>
-  <li>CLI Stopwatch</li>
-  <li>Mad Libs</li>
-  <li>Email Slicer</li>
-  <li>Word Replacer</li>
+  <li id="password-generator">Password Generator</li>
+  <li id="hangman">Hangman</li>
+  <li id="rock-paper-scissor">Rock-Paper-Scissor</li>
+  <li id="guess-the-number">Guess the Number</li>
+  <li id="basic-calculator">Basic Calculator</li>
+  <li id="dice-simulator">Dice Simulator</li>
+  <li id="quiz">Quiz</li>
+  <li id="date-time-display">Date and Time Display</li>
+  <li id="cli-stopwatch">CLI Stopwatch</li>
+  <li id="mad-libs">Mad Libs</li>
+  <li id="email-slicer">Email Slicer</li>
+  <li id="word-replacer">Word Replacer</li>
 </ul>
 </p>
 
@@ -29,7 +29,7 @@ Each mini project is designed to reinforce programming concepts like variables, 
 
 <hr>
 
-<h1>Projects</h1>
+<h1><a href="#password-generator" >Projects</a></h1>
 
 <h3>Password Generator</h3>
 <p>
