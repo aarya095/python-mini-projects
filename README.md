@@ -1,4 +1,4 @@
-# python-mini-projects
+# python-fundamental-projects
 
 <p>
 A collection of small Python projects built to strengthen programming logic and problem-solving skills.  
@@ -8,17 +8,14 @@ Currently includes:
   <li>Hangman</li>
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
-  <li>Simple Projects</li>
-  <ul>
-    <li>Basic Calculator</li>
-    <li>Dice Simulator</li>
-    <li>Quiz</li>
-    <li>Date and Time Display</li>
-    <li>CLI Stopwatch</li>
-    <li>Mad Libs</li>
-    <li>Email Slicer</li>
-    <li>Word Replacer</li>
-  </ul>
+  <li>Basic Calculator</li>
+  <li>Dice Simulator</li>
+  <li>Quiz</li>
+  <li>Date and Time Display</li>
+  <li>CLI Stopwatch</li>
+  <li>Mad Libs</li>
+  <li>Email Slicer</li>
+  <li>Word Replacer</li>
 </ul>
 </p>
 
