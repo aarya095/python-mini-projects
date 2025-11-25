@@ -29,7 +29,7 @@ Each mini project is designed to reinforce programming concepts like variables, 
 
 <hr>
 
-<h1><a id="password-generator" >Projects</a></h1>
+<h1>Projects/h1>
 
 <h3>Password Generator</h3>
 <p>
