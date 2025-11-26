@@ -52,7 +52,7 @@ The program ensures controlled input flow, persistent looping for menu navigatio
 <p>Example Output</p>
 <img width="550" alt="Screenshot_20251126_102145" src="https://github.com/user-attachments/assets/1f6ad6b3-bbbb-4164-9f99-092d92c1e85f" />
 
-<img width="550" alt="Screenshot_20251126_102243" src="https://github.com/user-attachments/assets/3ac9fa10-288f-4521-bb48-901941533807" />
+<img width="600" alt="Screenshot_20251126_102243" src="https://github.com/user-attachments/assets/3ac9fa10-288f-4521-bb48-901941533807" />
 
 <img width="550" alt="Screenshot_20251126_102318" src="https://github.com/user-attachments/assets/0a2b66fb-bc7b-45a1-a0c8-11270d62d064" />
 
