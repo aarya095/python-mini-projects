@@ -275,7 +275,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <h2>Author</h2>
 <p>
-<b>Aarya</b><br>
+<b>Aarya Sarfare</b><br>
 IT Engineering student | Learning Defensive Security and Development
 </p>
 
