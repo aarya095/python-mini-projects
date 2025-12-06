@@ -30,6 +30,7 @@ def validate_user_operation_input(operation_input):
     return operation_input not in valid_input
 
 while True:
+    
     try:
         user_input_1 = int(input("Please provide a number: "))
     except ValueError:
@@ -47,16 +48,20 @@ while True:
 Enter 'a' for addition, 's' for subtraction, 'd' for division, 'm' for multiplication: ").lower()
     
     check_for_exit(user_input_operation)
+
     if validate_user_operation_input(user_input_operation) == True:
         print("Please provide valid input.")
         break
 
     if user_input_operation == 'a':
         add(user_input_1, user_input_2)
+
     elif user_input_operation == 's':
         subtract(user_input_1, user_input_2)
+
     elif user_input_operation == 'd':
         divide(user_input_1, user_input_2)
+
     elif user_input_operation == 'm':
         multiply(user_input_1, user_input_2)
 
