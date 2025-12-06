@@ -1,3 +1,4 @@
+# Built-in Modules
 import random
 
 dice_drawing = {
@@ -46,11 +47,20 @@ dice_drawing = {
 
     }
 
-list_of_keys = []
-for key in dice_drawing.keys():
-    list_of_keys.append(key)
+def extract_dice_from_dict():
+    """Extract dice from the dictionary"""
+
+    list_of_keys = []
+    for key in dice_drawing.keys():
+        list_of_keys.append(key)
+
+    return list_of_keys
 
 def roll_dice():
+    """Choose a dice from the list of dices"""
+
+    list_of_keys = extract_dice_from_dict()
+
     dice1 = random.choice(list_of_keys)
     dice2 = random.choice(list_of_keys)
     for i in dice_drawing[dice1]:
@@ -58,15 +68,21 @@ def roll_dice():
     for i in dice_drawing[dice2]:
         print(i)
 
-print("Welcome To Dice Stimulator!\n")
+def main():
+    """Main function"""
+    
+    print("Welcome To Dice Stimulator!\n")
 
-while True:
-    user_input = input("Want to roll the dice? Type Yes or No: ").lower()
-    if user_input == 'yes':
-        roll_dice()
-    elif user_input == 'no':
-        print("Thank you for using the Dice Stimulator!")
-        exit()
-    else:
-        print("Please provide a valid input.")
-        exit()
+    while True:
+        user_input = input("Want to roll the dice? Type Yes or No: ").lower()
+        if user_input == 'yes':
+            roll_dice()
+        elif user_input == 'no':
+            print("Thank you for using the Dice Stimulator!")
+            exit()
+        else:
+            print("Please provide a valid input.")
+            exit()
+
+if __name__ == '__main__':
+    main()

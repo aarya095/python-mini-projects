@@ -1,9 +1,11 @@
+# Built-in Modules
 import random
 
 print("Welcome to Rock-Paper-Scissor!")
 print("Enter 'e' to exit.\n")
 
 def is_win():
+
     while 1 == 1:
         user_input = input("Select one, 'r' for rock, 'p' for paper, 's' for scissor: ").lower()
 

@@ -1,3 +1,5 @@
+# Takes in a word from the sentence and replaces it with the word provided
+
 message = "Hi Aarya, How are you?"
 print(message)
 

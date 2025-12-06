@@ -5,6 +5,7 @@ These words are inserted into the blanks and then the story is read aloud to hil
 
 adjective1 = input("Provide an adjective: ").lower()
 adjective2 = input("Provide another adjective: ").lower()
+
 verb1 = input("Provide a verb: ").lower()
 verb2 = input("Provide another verb: ").lower()
 

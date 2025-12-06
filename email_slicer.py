@@ -1,3 +1,5 @@
+# Splits an Email
+
 input_email = input("Please provide your email: ")
 
 (username, domain_name) = input_email.split("@")
