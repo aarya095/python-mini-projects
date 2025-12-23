@@ -22,11 +22,15 @@ def take_and_validate_input_slot(list_of_available_slots):
 
     return human_selected_slot
 
-def is_win(playing_board_array):
+def is_win(playing_board_array, list_of_available_slots):
     """Checks the winning cases and if any entries is satisfied returns True"""
 
+    if len(list_of_available_slots) == 0:
+        print("Its a tie!")
+        return 'tie', None
+
     # Horizontal Winning conditions
-    if playing_board_array[0][0] == playing_board_array[0][1] \
+    elif playing_board_array[0][0] == playing_board_array[0][1] \
         and playing_board_array[0][1] == playing_board_array[0][2]:
         winner_letter = playing_board_array[0][0].item()
         return True, winner_letter

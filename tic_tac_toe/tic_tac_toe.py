@@ -67,6 +67,7 @@ def main():
 
     if human_player_letter == 'X':
         while len(list_of_available_slots) != 0:
+            print(list_of_available_slots)
             print("Your turn!")
             generate_playing_board(playing_board_array)
             
@@ -75,19 +76,21 @@ def main():
             
             generate_playing_board(playing_board_array)
             
-            result, winner_letter = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array, 
+                                           list_of_available_slots)
             if result == True:
                 for key, value in players_dict.items():
                     if value == winner_letter:
                         print(f"{key} won!")
                 break
-            else:
-                pass
+            if result == 'tie':
+                break
             
             computer_play(playing_board_array, computer_player_letter, 
                           list_of_available_slots, computer_player_selected_slots)
             
-            result, winner_letter = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array, 
+                                           list_of_available_slots)
             if result == True:
                 for key, value in players_dict.items():
                     if value == winner_letter:
@@ -97,6 +100,7 @@ def main():
     else:
         print("Computer's turn!")
         while len(list_of_available_slots) != 0:
+            print(list_of_available_slots)
             generate_playing_board(playing_board_array)
 
             computer_play(playing_board_array, computer_player_letter, 
@@ -105,7 +109,8 @@ def main():
             print("Your turn!")
             generate_playing_board(playing_board_array)
             
-            result, winner_letter = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array, 
+                                           list_of_available_slots)
             if result == True:
                 for key, value in players_dict.items():
                     if value == winner_letter:
@@ -115,13 +120,13 @@ def main():
             human_play(playing_board_array, human_player_letter, 
                        list_of_available_slots, human_player_selected_slots)
             
-            result, winner_letter = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array, 
+                                           list_of_available_slots)
             if result == True:
                 for key, value in players_dict.items():
                     if value == winner_letter:
                         print(f"{key} won!")
                 break
     
-
 if __name__ == '__main__':
     main()

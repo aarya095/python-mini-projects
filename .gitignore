@@ -3,6 +3,7 @@
 *.pyc
 __pycache__/
 tic_tac_toe/venv/
+tic_tac_toe/tests.py
 to_do_list/
 simple_projects/venv/
 txt.py
