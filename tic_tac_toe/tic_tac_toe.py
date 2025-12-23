@@ -5,13 +5,13 @@ from utils import *
 
 def generate_playing_board(playing_board_array):
     """Generates the playing board using the 2d array"""
-    print("-----------")
-    print(f"|{playing_board_array[0][0]} | {playing_board_array[0][1]} | {playing_board_array[0][2]}|")
-    print("|--|---|--|")
-    print(f"|{playing_board_array[1][0]} | {playing_board_array[1][1]} | {playing_board_array[1][2]}|")
-    print("|--|---|--|")
-    print(f"|{playing_board_array[2][0]} | {playing_board_array[2][1]} | {playing_board_array[2][2]}|")
-    print("-----------")
+    print("-------------")
+    print(f"| {playing_board_array[0][0]} | {playing_board_array[0][1]} | {playing_board_array[0][2]} |")
+    print("|---|---|---|")
+    print(f"| {playing_board_array[1][0]} | {playing_board_array[1][1]} | {playing_board_array[1][2]} |")
+    print("|---|---|---|")
+    print(f"| {playing_board_array[2][0]} | {playing_board_array[2][1]} | {playing_board_array[2][2]} |")
+    print("-------------")
 
 def computer_play(playing_board_array, computer_player_letter, 
                   list_of_available_slots, computer_player_selected_slots):
@@ -75,15 +75,16 @@ def main():
             
             generate_playing_board(playing_board_array)
             
-            result = is_win(human_player_selected_slots)
+            result, letter = is_win(playing_board_array)
             if result == True:
                 print("Congratulations! You Won!")
+                
                 break
             
             computer_play(playing_board_array, computer_player_letter, 
                           list_of_available_slots, computer_player_selected_slots)
             
-            result = is_win(computer_player_selected_slots)
+            result = is_win(playing_board_array)
             if result == True:
                 print("You Lost! Try Again?")
                 break
@@ -98,7 +99,7 @@ def main():
             
             generate_playing_board(playing_board_array)
             
-            result = is_win(computer_player_selected_slots)
+            result = is_win(playing_board_array)
             if result == True:
                 print("You Lost! Try Again?")
                 break
@@ -106,8 +107,9 @@ def main():
             human_play(playing_board_array, human_player_letter, 
                        list_of_available_slots, human_player_selected_slots)
             
-            result = is_win(human_player_selected_slots)
+            result = is_win(playing_board_array)
             if result == True:
+
                 print("Congratulations! You Won!")
                 break
     

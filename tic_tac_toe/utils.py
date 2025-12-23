@@ -1,4 +1,5 @@
 import numpy as np
+import re
 
 list_of_winning_cases = ['123','456','789','147',
                          '258','369','159','357']
@@ -21,28 +22,53 @@ def take_and_validate_input_slot(list_of_available_slots):
 
     return human_selected_slot
 
-def is_win(player_selected_slots):
-    """Checks the winning cases list and if the player's selected slots matches any entries"""
-    player_selected_slots.sort()
-    player_selected_slots_str = ""
-    for slot in player_selected_slots:
-        player_selected_slots_str += str(slot)
-    if player_selected_slots_str in list_of_winning_cases:
-        return True
-    else:
-        return False
+def is_win(playing_board_array):
+    """Checks the winning cases and if any entries is satisfied returns True"""
+
+    # Horizontal Winning conditions
+    if playing_board_array[0][0] == playing_board_array[0][1] \
+        and playing_board_array[0][1] == playing_board_array[0][2]:
+        return True, playing_board_array[0][0]
+    elif playing_board_array[1][0] == playing_board_array[1][1] \
+        and playing_board_array[1][1] == playing_board_array[1][2]:
+        return True, playing_board_array[1][0]
+    elif playing_board_array[2][0] == playing_board_array[2][1] \
+        and playing_board_array[2][1] == playing_board_array[2][2]:
+        return True, playing_board_array[2][0]
     
+    # Vertical Winning conditions
+    elif playing_board_array[0][0] == playing_board_array[1][0] \
+        and playing_board_array[1][0] == playing_board_array[2][0]:
+        return True, playing_board_array[0][0]
+    elif playing_board_array[0][1] == playing_board_array[1][1] \
+        and playing_board_array[1][1] == playing_board_array[2][1]:
+        return True, playing_board_array[0][1]
+    elif playing_board_array[0][2] == playing_board_array[1][2] \
+        and playing_board_array[1][2] == playing_board_array[2][2]:
+        return True, playing_board_array[0][2]
+    
+    # Diagonal Winning conditions
+    elif playing_board_array[0][0] == playing_board_array[1][1] \
+        and playing_board_array[1][1] == playing_board_array[2][2]:
+        return True, playing_board_array[0][0]
+    elif playing_board_array[0][2] == playing_board_array[1][1] \
+        and playing_board_array[1][1] == playing_board_array[2][0]:
+        return True, playing_board_array[0][2]
 
 if __name__ == '__main__':
-    playing_board_array = np.array([['1','2','3'],['4','5','6'],['7','8','9']])
-    human_selected_slot = '2'
-    human_player_letter = 'X'
-    for rows in playing_board_array:
-        for slot in rows:
-            if slot == human_selected_slot:
-                row_id, column_id = np.where(playing_board_array == slot)
-                i = row_id.item()
-                j = column_id.item()
-                playing_board_array[i][j] = human_player_letter
+    player_selected_slots = ['6','9','3','4']
+    result = is_win(player_selected_slots)
+    print(result)
 
-    print(playing_board_array)
+    """    playing_board_array = np.array([['1','2','3'],['4','5','6'],['7','8','9']])
+        human_selected_slot = '2'
+        human_player_letter = 'X'
+        for rows in playing_board_array:
+            for slot in rows:
+                if slot == human_selected_slot:
+                    row_id, column_id = np.where(playing_board_array == slot)
+                    i = row_id.item()
+                    j = column_id.item()
+                    playing_board_array[i][j] = human_player_letter
+
+        print(playing_board_array)"""

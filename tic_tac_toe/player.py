@@ -13,7 +13,12 @@ def assign_x_or_o_to_player():
     else:
         computer_player = 'X'
 
-    return human_player, computer_player
+    players_dict = {
+        'human_player' : human_player,
+        'computer_player' : computer_player
+    }
+
+    return players_dict
 
 if __name__ == '__main__':
     #human_player, computer_player = assign_x_or_o_to_player()
