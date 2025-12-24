@@ -1,9 +1,6 @@
 import numpy as np
 import re
 
-list_of_winning_cases = ['123','456','789','147',
-                         '258','369','159','357']
-
 def take_and_validate_input_slot(list_of_available_slots):
     """Takes in slot number and validates it, loops until the user provides the accepted input"""
     
