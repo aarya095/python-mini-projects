@@ -6,6 +6,7 @@ Currently includes:
 <ul>
   <li><a href="#password-manager">Password Manager</a></li>
   <li><a href="#password-generator">Password Generator</a></li>
+  <li><a href="#tic-tac-toe">Tic-Tac-Toe</a></li>
   <li><a href="#hangman">Hangman</a></li>
   <li><a href="#rock-paper-scissor">Rock-Paper-Scissor</a></li>
   <li><a href="#guess-the-number">Guess the Number</a></li>
@@ -78,6 +79,29 @@ character set, and generates a random password of the desired length.
 
 <p>Example Output</p>
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/91c41e45-01b5-4e56-9634-a553b654c542" />
+
+<h2>Tic-Tac-Toe</h2>
+<p>
+Accomplished a fully playable CLI Tic-Tac-Toe game, as measured by correct win and tie detection across all winning conditions, by evaluating board state using a 2D NumPy array.
+Accomplished smooth human vs computer turn-based gameplay, as measured by consistent game flow until completion, by structuring logic across modular components.
+Accomplished robust user input handling, as measured by prevention of invalid moves, by validating inputs against dynamically updated available slots.
+</p>
+
+<b>Concepts Used:</b>
+<ul>
+  <li>Python modular programming for separating game logic</li>
+  <li>Command-line interface (CLI) for user interaction</li>
+  <li>Random module for computer move selection</li>
+  <li>NumPy 2D arrays for board representation</li>
+  <li>List manipulation to track available and selected slots</li>
+  <li>Input validation to prevent invalid moves</li>
+  <li>Conditional logic for win and tie detection</li>
+</ul>
+
+<p>Example Output</p>
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/fa9689a0-64b9-4da1-8cfd-00ef1f7c86fa" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/2c9bfbc3-5dc7-4916-9c79-8eb9dd551316" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/f8427f8f-42cf-4132-bdf8-04a34c193c42" />
 
 <h2>Hangman</h2>
 <p>
