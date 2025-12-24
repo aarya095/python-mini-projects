@@ -99,9 +99,9 @@ Accomplished robust user input handling, as measured by prevention of invalid mo
 </ul>
 
 <p>Example Output</p>
-<img width="250" alt="image" src="https://github.com/user-attachments/assets/fa9689a0-64b9-4da1-8cfd-00ef1f7c86fa" />
-<img width="250" alt="image" src="https://github.com/user-attachments/assets/2c9bfbc3-5dc7-4916-9c79-8eb9dd551316" />
-<img width="250" alt="image" src="https://github.com/user-attachments/assets/f8427f8f-42cf-4132-bdf8-04a34c193c42" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/fa9689a0-64b9-4da1-8cfd-00ef1f7c86fa" />
+<img width="220" alt="image" src="https://github.com/user-attachments/assets/2c9bfbc3-5dc7-4916-9c79-8eb9dd551316" />
+<img width="220" alt="image" src="https://github.com/user-attachments/assets/f8427f8f-42cf-4132-bdf8-04a34c193c42" />
 
 <h2>Hangman</h2>
 <p>
